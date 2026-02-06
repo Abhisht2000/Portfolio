@@ -228,4 +228,17 @@ window.addEventListener('mousemove', function(e) {
 });
 
 // Add CSS for animations
-document.head.insertAdjacentHTML('beforeend', `)`);
+document.head.insertAdjacentHTML('beforeend', `
+<style>
+    @media (max-width: 768px) {
+        .nav-links {
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-links.active {
+            transform: translateX(0);
+        }
+    }
+</style>
+`);
