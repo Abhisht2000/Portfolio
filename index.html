@@ -29,6 +29,7 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -54,22 +55,23 @@
                 <div class="hero-image">
                     <div class="code-container">
                         <pre><code>
-<span class="code-keyword">function</span> <span class="code-function">Developer</span>() {
+<span class="code-keyword">function</span> <span class="code-function">BackendDeveloper</span>() {
   <span class="code-keyword">this</span>.<span class="code-property">name</span> = <span class="code-string">"Abhisht Singh"</span>;
   <span class="code-keyword">this</span>.<span class="code-property">traits</span> = [
-    <span class="code-string">"Creative"</span>,
+    <span class="code-string">"Motivated"</span>,
     <span class="code-string">"Problem Solver"</span>,
-    <span class="code-string">"Detail-Oriented"</span>
+    <span class="code-string">"Team Player"</span>
   ];
   <span class="code-keyword">this</span>.<span class="code-property">skills</span> = {
     <span class="code-property">frontend</span>: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JavaScript"</span>],
-    <span class="code-property">backend</span>: [<span class="code-string">"Node.js"</span>, <span class="code-string">"Express"</span>],
-    <span class="code-property">other</span>: [<span class="code-string">"Git"</span>, <span class="code-string">"Responsive Design"</span>]
+    <span class="code-property">backend</span>: [<span class="code-string">"Node.js"</span>, <span class="code-string">"Express"</span>, <span class="code-string">"MongoDB"</span>],
+    <span class="code-property">languages</span>: [<span class="code-string">"Python"</span>, <span class="code-string">"Java"</span>, <span class="code-string">"C++"</span>, <span class="code-string">"JavaScript"</span>],
+    <span class="code-property">ml</span>: [<span class="code-string">"Machine Learning"</span>, <span class="code-string">"Pandas"</span>, <span class="code-string">"NumPy"</span>]
   };
 }
 
-<span class="code-keyword">const</span> <span class="code-variable">me</span> = <span class="code-keyword">new</span> <span class="code-function">Developer</span>();
-<span class="code-variable">me</span>.<span class="code-function">createAmazingThings</span>();
+<span class="code-keyword">const</span> <span class="code-variable">me</span> = <span class="code-keyword">new</span> <span class="code-function">BackendDeveloper</span>();
+<span class="code-variable">me</span>.<span class="code-function">buildScalableSolutions</span>();
                         </code></pre>
                     </div>
                 </div>
@@ -103,8 +105,8 @@
                 </div>
                 <div class="about-text">
                     <h3>Hello! I'm <span class="highlight">Abhisht Singh</span></h3>
-                    <p>I'm a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. I love creating beautiful, functional, and user-friendly websites that deliver exceptional user experiences.</p>
-                    <p>With a background in both design and development, I bring a unique perspective to every project. I'm constantly learning and exploring new technologies to stay at the cutting edge of web development.</p>
+                    <p>Motivated Backend Developer with a strong foundation in web development. Contributed to the enhancement of web systems through collaborative projects and a dedication to learning, leading to improved code efficiency.</p>
+                    <p>Seeking a Software Developer position to deliver innovative solutions and streamline development processes through proficient coding skills and a focus on teamwork. I'm constantly learning and exploring new technologies to stay at the cutting edge of web development.</p>
                     <div class="about-details">
                         <div class="detail">
                             <i class="fas fa-user"></i>
@@ -180,6 +182,15 @@
                                 <div class="skill-progress" style="--width: 85%"></div>
                             </div>
                         </div>
+                        <div class="skill-item" data-skill="Responsive Design">
+                            <div class="skill-info">
+                                <span>Responsive Design</span>
+                                <span class="percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 85%"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h3>Backend</h3>
@@ -192,18 +203,78 @@
                                 <div class="skill-progress" style="--width: 80%"></div>
                             </div>
                         </div>
-                        <div class="skill-item" data-skill="Express">
+                        <div class="skill-item" data-skill="Express.js">
                             <div class="skill-info">
-                                <span>Express</span>
+                                <span>Express.js</span>
                                 <span class="percentage">75%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="--width: 75%"></div>
                             </div>
                         </div>
-                        <div class="skill-item" data-skill="SQL">
+                        <div class="skill-item" data-skill="MongoDB">
                             <div class="skill-info">
-                                <span>SQL</span>
+                                <span>MongoDB</span>
+                                <span class="percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Java">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="C++">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span class="percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="skill-item" data-skill="Machine Learning">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Pandas">
+                            <div class="skill-info">
+                                <span>Pandas</span>
+                                <span class="percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="NumPy">
+                            <div class="skill-info">
+                                <span>NumPy</span>
                                 <span class="percentage">70%</span>
                             </div>
                             <div class="skill-bar">
@@ -230,12 +301,81 @@
                         <span>Node.js</span>
                     </div>
                     <div class="tech-icon">
-                        <i class="fab fa-git-alt"></i>
-                        <span>Git</span>
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
                     </div>
                     <div class="tech-icon">
-                        <i class="fab fa-npm"></i>
-                        <span>npm</span>
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fas fa-brain"></i>
+                        <span>ML</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & <span class="highlight">Achievements</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="certifications-content">
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Smart India Hackathon (SIH)</h3>
+                            <p class="cert-org">Volunteer</p>
+                            <p class="cert-desc">Volunteered at national-level hackathon, assisted in coordination of teams and event operations</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>IIT Guwahati</h3>
+                            <p class="cert-org">Campus Ambassador</p>
+                            <p class="cert-desc">Represented IIT Guwahati at college level, promoted academic and technical initiatives</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Web Design & Development</h3>
+                            <p class="cert-org">NSDC Certification</p>
+                            <p class="cert-desc">HTML, CSS, JavaScript, Responsive Design</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>AI Solution Architecture</h3>
+                            <p class="cert-org">NSDC Certification</p>
+                            <p class="cert-desc">AI Systems, Solution Design, Data Flow, Deployment Basics</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>NoSQL Database</h3>
+                            <p class="cert-org">Infosys Certification</p>
+                            <p class="cert-desc">MongoDB Concepts, Data Modeling, Scalability Basics</p>
+                        </div>
                     </div>
                 </div>
             </div>
