@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Typing effect
     const typingText = document.getElementById('typing-text');
-    const words = ['Web Developer', 'Frontend Developer', 'UI/UX Designer', 'Problem Solver'];
+    const words = ['Backend Developer', 'Software Developer', 'ML Enthusiast', 'Problem Solver', 'Team Player'];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

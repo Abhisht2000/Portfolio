@@ -926,6 +926,104 @@ code {
     font-size: 1.4rem;
 }
 
+/* ===== CERTIFICATIONS SECTION ===== */
+.certifications {
+    background-color: var(--background-light);
+}
+
+.certifications-content {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 3rem;
+}
+
+.cert-card {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-fast);
+    border: 1px solid var(--border-color);
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+.cert-icon {
+    width: 6rem;
+    height: 6rem;
+    min-width: 6rem;
+    border-radius: 50%;
+    background: var(--gradient-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--background-color);
+}
+
+.cert-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.cert-org {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.cert-desc {
+    font-size: 1.4rem;
+    color: var(--text-color-light);
+    line-height: 1.5;
+}
+
+/* Responsive for certifications */
+@media (max-width: 768px) {
+    .cert-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cert-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cert-icon {
+        width: 5rem;
+        height: 5rem;
+        min-width: 5rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cert-card {
+        padding: 2rem;
+    }
+    
+    .cert-info h3 {
+        font-size: 1.6rem;
+    }
+}
+
 /* ===== PROJECTS SECTION ===== */
 .projects {
     background-color: var(--background-light);
